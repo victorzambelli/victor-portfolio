@@ -119,6 +119,7 @@ export const technologies: Technology[] = [
     { name: "HTML", iconClass: "devicon-html5-plain colored" },
     { name: "CSS", iconClass: "devicon-css3-plain colored" },
     { name: "Sass", iconClass: "devicon-sass-original colored" },
+    { name: "Bulma", iconClass: "devicon-bulma-plain colored" },
     { name: "BootStrap", iconClass: "devicon-bootstrap-plain colored" },
     { name: "JavaScript", iconClass: "devicon-javascript-plain colored" },
     { name: "TypeScript", iconClass: "devicon-typescript-plain colored" },
@@ -131,7 +132,6 @@ export const technologies: Technology[] = [
     { name: "Yarn", iconClass: "devicon-yarn-plain colored" },
     { name: "Git", iconClass: "devicon-git-plain colored" },
     { name: "GitHub", iconClass: "devicon-github-original" },
-    { name: "SQLServer", iconClass: "devicon-microsoftsqlserver-plain colored" },
     { name: "MongoDB", iconClass: "devicon-mongodb-plain colored" },
     { name: "MySQL", iconClass: "devicon-mysql-plain colored" },
     { name: "MariaDB", iconClass: "devicon-mariadb-plain colored" },
@@ -141,4 +141,5 @@ export const technologies: Technology[] = [
     { name: "Lua", iconClass: "devicon-lua-plain-wordmark colored" },
     { name: "Python", iconClass: "devicon-python-plain colored" },
     { name: "Java", iconClass: "devicon-java-plain colored" },
+    { name: "PHP", iconClass: "devicon-php-plain colored" },
 ];
