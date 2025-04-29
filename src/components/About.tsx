@@ -1,3 +1,5 @@
+import myPhoto from "../assets/myphoto.jpg";
+
 const About = () => {
     return (
         <section
@@ -7,7 +9,7 @@ const About = () => {
             <div className="flex flex-col md:flex-row items-center justify-center gap-10 max-w-6xl w-full">
                 <div className="flex justify-center md:justify-center w-full md:w-1/2">
                     <img
-                        src="/victor-portfolio/src/assets/myphoto.jpg"
+                        src={myPhoto}
                         alt="Uma foto minha"
                         className="max-w-[400px] w-full rounded-xl shadow-lg border-4 border-zambelli-purple"
                     />

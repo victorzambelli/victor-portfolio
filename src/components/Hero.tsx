@@ -1,4 +1,6 @@
 import { useTypewriter } from "../hooks/useTypewriter";
+import programmerImg from "../assets/Programmer.svg";
+import scrollImg from "../assets/scroll.png";
 
 const Hero = () => {
     const { displayText } = useTypewriter("Victor Zambelli");
@@ -29,7 +31,7 @@ const Hero = () => {
 
             <div className="hidden md:block w-2/5 my-8">
                 <img
-                    src="/victor-portfolio/src/assets/Programmer.svg"
+                    src={programmerImg}
                     alt="Ilustração de um Programador"
                     className="w-full"
                 />
@@ -38,7 +40,7 @@ const Hero = () => {
             <div className="absolute bottom-4 font-bold tracking-wider">
                 <a href="#aboutme" className="flex flex-col items-center">
                     <p className="py-4 text-xs text-zambelli-grey">scroll down</p>
-                    <img src="/victor-portfolio/src/assets/scroll.png" alt="Setinha indicando para rolar a tela para baixo" className="animate-scroll-down" />
+                    <img src={scrollImg} alt="Setinha indicando para rolar a tela para baixo" className="animate-scroll-down" />
                 </a>
             </div>
         </section>

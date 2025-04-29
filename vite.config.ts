@@ -11,4 +11,24 @@ export default defineConfig(({ mode }) => ({
         "@": path.resolve(__dirname, "./src"),
         },
     },
+    build: {
+        assetsInlineLimit: 0,
+        rollupOptions: {
+            input: {
+                main: path.resolve(__dirname, "index.html"),
+            },
+            output: {
+                assetFileNames: (assetInfo) => {
+                    const info = assetInfo.name.split(".");
+                    const extType = info[info.length - 1];
+                    if (/\.(jpe?g|png|gif|svg|ico)$/i.test(assetInfo.name)) {
+                        return `assets/[name]-[hash][extname]`;
+                    }
+                    return `assets/${extType}/[name]-[hash][extname]`;
+                },
+                chunkFileNames: "assets/js/[name]-[hash].js",
+                entryFileNames: "assets/js/[name]-[hash].js",
+            },
+        },
+    },
 }));
