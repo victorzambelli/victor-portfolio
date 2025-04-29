@@ -24,6 +24,6 @@ This project was developed with the following technologies:
 - [DevIcon](https://devicon.dev/)
 
 ## 💻 Project
-![preview](./assets/preview.png/)
+![preview](./src/assets/preview.png/)
 [Click here to access project](https://victorzambelli.github.io/victor-portfolio/)
 > **Objetivo:** Create a portfolio to place my developed projects and talk about myself.
