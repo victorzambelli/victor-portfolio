@@ -33,7 +33,7 @@ const Hero = () => {
                 <img
                     src={programmerImg}
                     alt="Ilustração de um Programador"
-                    className="w-full"
+                    className="w-full transition-all duration-300 hover:scale-105 hover:filter hover:drop-shadow-[0_0_10px_rgba(168,85,247,0.5)]"
                 />
             </div>
 

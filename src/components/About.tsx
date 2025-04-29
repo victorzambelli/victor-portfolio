@@ -1,4 +1,5 @@
 import myPhoto from "../assets/myphoto.jpg";
+import cvFile from "../assets/cv.pdf";
 
 const About = () => {
     return (
@@ -11,7 +12,7 @@ const About = () => {
                     <img
                         src={myPhoto}
                         alt="Uma foto minha"
-                        className="max-w-[400px] w-full rounded-xl shadow-lg border-4 border-zambelli-purple"
+                        className="max-w-[400px] w-full rounded-xl shadow-lg border-4 border-zambelli-purple transition-all duration-300 hover:scale-105 hover:rotate-1 hover:shadow-xl hover:shadow-zambelli-purple/30"
                     />
                 </div>
 
@@ -40,16 +41,16 @@ const About = () => {
 
                     <div className="flex flex-wrap justify-center md:justify-start">
                         <a
-                            href="/victor-portfolio/src/assets/cv.pdf"
+                            href={cvFile}
                             download="Currículo_VictorZambelli"
-                            className="bg-zambelli-purple text-white font-semibold text-base px-6 py-3 rounded-lg mr-4 mt-4 border-3 border-zambelli-light-black transition-transform hover:scale-105"
+                            className="bg-zambelli-purple text-white font-semibold text-base px-6 py-3 rounded-lg mr-4 mt-4 border-3 border-zambelli-light-black transition-all duration-300 hover:scale-105 hover:bg-zambelli-purple/90 hover:shadow-md"
                         >
                             Currículo PDF
                         </a>
 
                         <a
                             href="mailto:zambelli.vic@gmail.com"
-                            className="bg-zambelli-purple text-white font-semibold text-base px-6 py-3 rounded-lg mt-4 border-3 border-zambelli-light-black transition-transform hover:scale-105"
+                            className="bg-zambelli-purple text-white font-semibold text-base px-6 py-3 rounded-lg mt-4 border-3 border-zambelli-light-black transition-all duration-300 hover:scale-105 hover:bg-zambelli-purple/90 hover:shadow-md"
                         >
                             Contato Email
                         </a>
